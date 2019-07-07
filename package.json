@@ -2,14 +2,20 @@
   "name": "netlify-functions-express",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://github.com/shaimuli/netlify-functions-express.git",
+=======
+>>>>>>> b058d57ba244e5a659f691b0249c722ac440c410
   "dependencies": {
     "aws-serverless-express": "^3.2.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+<<<<<<< HEAD
     "gh-pages": "^2.0.1",
+=======
+>>>>>>> b058d57ba244e5a659f691b0249c722ac440c410
     "isomorphic-fetch": "^2.2.1",
     "morgan": "^1.9.0",
     "react": "^16.4.0",
@@ -26,10 +32,14 @@
     "build": "npm-run-all --parallel build:**",
     "build:app": "react-scripts build",
     "build:functions": "netlify-lambda build functions",
+<<<<<<< HEAD
     "test": "react-scripts test --env=jsdom",
     "export": "npm run build && next export",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+=======
+    "test": "react-scripts test --env=jsdom"
+>>>>>>> b058d57ba244e5a659f691b0249c722ac440c410
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
